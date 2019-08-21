@@ -1,0 +1,28 @@
+
+.event-container{
+  font-family: sans-serif;
+}
+
+.cookies-cont{
+  text-align: center;
+  width: 80%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template: 600px 600px 600px / 600px 600px 600px;
+}
+
+.event-pic{
+  width: 100%;
+  text-align: center;
+}
+
+.event-text{
+  width: 50%;
+}
+
+.event-info{
+  width: 40%;
+}
+
+.cookie-box{
+}

@@ -1,0 +1,38 @@
+
+
+.newsletters{
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 3rem;
+
+}
+
+.newsletters-header{
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 2rem;
+
+}
+
+.email-text{
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.under-text{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.email-input{
+  text-align: center;
+}
+
+.name-form{
+  width: 30%;
+  display: inline-block;
+}
+
+.forum-text{
+  padding: 0 8px 0 8px;
+}

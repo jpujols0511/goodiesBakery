@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="event.css">
+
+<div class="event-container">
+
+  <form action="/events" method="get">
+    <input type="text" name="createria" placeholder="Name of the Event">
+    <input type="text" name="address" placeholder="Area of Event">
+    <input type="submit" value='Search Event'>
+  </form>
+
+  <div class="bg-container">
+    <div class="cookies-cont">
+      <% for i in 0..8 do %>
+        <div class="event-info">
+          <h1><%= @eventTitles[i] %></h1>
+          <div class='cookie-box'>
+            <img class='event-pic' src="<%= @eventImages[i]%>">
+          </div>
+          <div class="event-text">
+            <textarea class='event-textarea' name="name" rows="8" cols="80" maxlength="500">
+              <%= @eventDescription[i] %>
+              <%= @eventDate[i] %>
+            </textarea>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
